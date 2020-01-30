@@ -1,0 +1,1814 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="description" content="A FREE DISC type PERSONALITY TEST, measuring DOMINANCE, INFLUENCE, SITABILITY, COMPLIANCE">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="keywords" content="DISC QUESTIONNAIRE, DISC, DISC TEST, JELLY BABY, DOMINANCE, INFLUENCE, SITABILITY, COMPLIANCE, TESTS-R-US, TESTS ON THE NET, TESTS, EDUCATIONAL, QUESTIONNAIRE, QUESTIONNAIRES, PERSONALITY, FUN TESTS, SURVEYS, INVENTORIES, PSYCHOMETRIC, PSYCHOLOGICAL, ADVICE about PERSONALITY TESTING, BARTERING, RESELLERS WANTED.">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="revisit-after" content="15 days">
+<meta name="ROBOTS" content="ALL"><title>TEST DE PERFILES PERSONALES DISC</title>
+
+<base target="_self">
+<script language="JAVASCRIPT">
+var numberOfSetsOfQuestions = 28;
+var abcdArray = new Array("a", "b", "c", "d");
+function validate()
+{
+var isMostAnswered = false;
+var isLeastAnswered = false;
+var unAnswered = "";
+for (i = 0; i < numberOfSetsOfQuestions; i++)
+{
+isMostAnswered = false; for (j = 0; j < abcdArray.length; j++)
+{
+if (document.getElementById("Q" + (i + 1) + abcdArray[j] + "M").checked == true)
+{
+isMostAnswered = true;
+}
+}
+isLeastAnswered = false;
+for (j = 0; j < abcdArray.length; j++)
+{
+if (document.getElementById("Q" + (i + 1) + abcdArray[j] + "L").checked == true)
+{
+isLeastAnswered = true;
+break;
+}
+}
+if (isMostAnswered == false || isLeastAnswered == false)
+{ unAnswered += (i + 1) + ", ";
+}
+} if (unAnswered != "")
+{
+unAnswered = unAnswered.substring(0, unAnswered.length - 2);
+alert("Please, answer the following sets of questions: " + unAnswered + ".")
+return;
+}
+else
+{
+document.itemform.submit();
+}
+}
+function uncheckOthers(id)
+{
+for (i = 0; i < abcdArray.length; i++) {
+if (abcdArray[i] != id.substring(id.length -2, id.length -1))
+{
+document.getElementById(id.substring(0, id.length - 2) + abcdArray[i] + id.substring(id.length - 1)).checked = false; }
+}
+}
+</script>
+</head>
+
+<body link="#cc3300">
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img border="0" src="../../images-new/logoprf.jpg" width="387" height="43"><img border="0" src="../../images-new/logopts.gif" width="27" height="52">&nbsp;&nbsp; </td>
+</tr>
+</tbody>
+</table>
+<br>
+<blockquote>
+<blockquote><font face="Arial"> </font>
+<center><font face="Arial"> <font color="#808080" face="Verdana" size="2"> </font>
+<table style="border-collapse: collapse;" border="0" bordercolor="#111111" cellpadding="3" cellspacing="4" width="60%">
+<tbody>
+<tr>
+<td style="background-color: rgb(247, 247, 247);" width="100%"> <font color="#808080" face="Verdana" size="2">Los Rasgos de personalidad medidos por el Test DISC
+son:</font></td>
+</tr>
+<tr>
+<td style="background-color: rgb(247, 247, 247);" width="100%"><b><span style="font-variant: small-caps;"> <font color="#808080" face="Verdana">Dominancia - d</font><font color="#808080" face="Verdana" size="2"><br>
+</font></span></b> <font color="#808080" face="Verdana" size="2">Seguridad en sí mismo |
+competitivo&nbsp; |&nbsp; individualista&nbsp; |&nbsp;
+desafiante&nbsp; |&nbsp; orientado a metas&nbsp;
+|&nbsp; crítico e impaciente con otros.</font></td>
+</tr>
+<tr>
+<td style="background-color: rgb(247, 247, 247);" width="100%"><b> <font face="Verdana"><span style="font-variant: small-caps;"> <font color="#808080">InfluencIA</font></span></font><font color="#808080"><font face="Verdana">&nbsp;-
+I</font><font face="Verdana" size="2"><br>
+</font></font></b><font color="#808080" face="Verdana" size="2"> Extrovertido</font><font face="Arial"><font color="#808080" face="Verdana" size="2">&nbsp; |&nbsp; generalmente hábil
+socialmente |&nbsp; disfruta las reuniones y relacionarse con las
+personas&nbsp; |&nbsp; optimista.</font></font></td>
+</tr>
+<tr>
+<td style="background-color: rgb(247, 247, 247);" width="100%"> <span style="font-variant: small-caps; font-weight: 700;"> <font color="#808080" face="Verdana">estabilidad</font></span><font face="Arial"><b><span style="font-variant: small-caps;"><font color="#808080" face="Verdana"> - S</font><font color="#808080"><br>
+</font> </span></b><font color="#808080" face="Verdana" size="2">Paciente&nbsp;
+|&nbsp; Dispuesto a ayudar a otros |&nbsp; Puede lidiar con la
+rutina , el trabajo detallado |&nbsp; controlado&nbsp;
+|&nbsp; calmado.</font></font></td>
+</tr>
+<tr>
+<td style="background-color: rgb(247, 247, 247);" width="100%"><b><font color="#808080" face="Verdana"> concienzudez- C</font></b><font color="#808080" face="Verdana" size="2"><br>
+Adaptable&nbsp; |&nbsp; evita tomar riesgos |&nbsp;
+cuidadoso&nbsp; |&nbsp; diplomático&nbsp; |&nbsp; se
+atiene a reglas y regulaciones.</font></td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></blockquote>
+<font face="Arial">
+</font></blockquote>
+<form method="POST" name="itemform" action="result.php">
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center>
+      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="61%">
+        <tr>
+          <td width="26%" valign="top">
+          <font color="#336699">
+          <font size="2" face="Arial">Por</font></font><font FACE="Arial"><font size="2" color="#336699"> favor indique 
+          aquí su nombre:</font></td>
+          <td width="74%"><font color="#111111" FACE="Arial">
+              <br>
+              <input type=text name=txt_name size=40 style="border: 1px solid #C0C0C0; "><br>
+                <font face="Arial" size="2"><br>
+          </font></font>
+          </font>
+<font FACE="Arial" color="#336699" size="2">
+          (Por favor indique su nombre primero 
+          y luego su apellido)</font><font FACE="Arial"><font color="#111111" FACE="Arial" size="2"><br>
+&nbsp;</font></td>
+          </font>
+        </tr>
+      </table>
+      <p><font face="Arial"> <br>
+</p>
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">1a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Las personas me respetan.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q1a" id="Q1aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q1a" id="Q1aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">1b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tiendo a ser una persona
+amable.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q1b" id="Q1bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q1b" id="Q1bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">1c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Acepto a la vida como viene.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q1c" id="Q1cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q1c" id="Q1cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">1d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Las personas dicen que tengo
+una fuerte personalidad.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q1d" id="Q1dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q1d" id="Q1dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<p style="margin: 0pt; line-height: 100%;" align="center">&nbsp;</p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">2a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Encuentro difícil relajarme </font>
+</p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q2a" id="Q2aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q2a" id="Q2aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">2b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tengo un círculo muy amplio
+de amigos.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q2b" id="Q2bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q2b" id="Q2bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">2c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre estoy listo para
+ayudar a otros.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q2c" id="Q2cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q2c" id="Q2cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">2d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me gusta comportarme
+correctamente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q2d" id="Q2dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q2d" id="Q2dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<p style="margin: 0pt; line-height: 100%;" align="center">&nbsp;</p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 3a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tiendo a hacer lo que se me
+pide.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q3a" id="Q3aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q3a" id="Q3aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 3b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me gustan que las cosas
+estén limpias y ordenadas.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q3b" id="Q3bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q3b" id="Q3bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 3c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Las personas no pueden
+rebajarme.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q3c" id="Q3cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q3c" id="Q3cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 3d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Disfruto haciendo cosas
+divertidas.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q3d" id="Q3dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q3d" id="Q3dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<p style="margin: 0pt; line-height: 100%;" align="center">&nbsp;</p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 4a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Respeto a mis mayores y a
+aquellas personas en autoridad.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q4a" id="Q4aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q4a" id="Q4aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 4b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre estoy dispuesto a </font><font color="#336699" face="Arial" size="2">
+&nbsp;tomar riesgos.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q4b" id="Q4bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q4b" id="Q4bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 4c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Creo que las cosas
+resultarán bien.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q4c" id="Q4cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q4c" id="Q4cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 4d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre estoy dispuesto a
+ayudar.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q4d" id="Q4dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q4d" id="Q4dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial"><i> <font color="#808080" size="2">(Recuerde no existen respuestas "correctas" o
+"incorrectas"&nbsp; - <br>
+se le pide que elija las respuestas que MÁS LE GUSTAN y aquellas que
+MENOS LE GUSTAN)</font></i></font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 5a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona limpia y
+ordenada.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q5a" id="Q5aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q5a" id="Q5aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 5b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy muy activo, tanto en el
+trabajo como en mis pasatiempos.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q5b" id="Q5bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q5b" id="Q5bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 5c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona tranquila y
+calmada.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q5c" id="Q5cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q5c" id="Q5cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 5d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Generalmente hago las cosas
+a mi manera.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q5d" id="Q5dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q5d" id="Q5dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial"><font color="#336699" face="Arial" size="2"><br>
+</font></font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" size="2">6</font><font color="#336699" face="Arial" size="2">a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Estoy contento con la vida.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q6a" id="Q6aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q6a" id="Q6aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" size="2">6</font><font color="#336699" face="Arial" size="2">b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Confío en las personas.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q6b" id="Q6bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q6b" id="Q6bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" size="2">6</font><font color="#336699" face="Arial" size="2">c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me gusta la tranquilidad y
+el silencio.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q6c" id="Q6cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q6c" id="Q6cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" size="2">6</font><font color="#336699" face="Arial" size="2">d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tengo una actitud muy
+positiva.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q6d" id="Q6dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q6d" id="Q6dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">7a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tengo mucha fuerza de
+voluntad.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q7a" id="Q7aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q7a" id="Q7aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">7b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre pongo atención a lo
+que dicen los demás.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q7b" id="Q7bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q7b" id="Q7bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">7c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Trato de ser servicial.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q7c" id="Q7cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q7c" id="Q7cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">7d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Estoy siempre contento.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q7d" id="Q7dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q7d" id="Q7dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">8a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy seguro de mí mismo.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q8a" id="Q8aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q8a" id="Q8aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">8b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Las personas dicen que soy
+una persona comprensiva.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q8b" id="Q8bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q8b" id="Q8bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">8c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tengo una actitud tolerante
+hacia la vida.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q8c" id="Q8cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q8c" id="Q8cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">8d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Expreso mis opiniones con
+seguridad.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q8d" id="Q8dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q8d" id="Q8dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">9a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Nunca pierdo mi temperamento.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q9a" id="Q9aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q9a" id="Q9aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">9b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me gusta que las cosas sean
+precisas y correctas.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q9b" id="Q9bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q9b" id="Q9bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">9c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona muy segura
+de mí misma.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q9c" id="Q9cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q9c" id="Q9cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">9d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Disfruto de las bromas y
+chistes.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q9d" id="Q9dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q9d" id="Q9dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<p style="margin: 0pt; line-height: 100%;" align="center">&nbsp;</p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">10a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Mi comportamiento es bien
+disciplinado.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q10a" id="Q10aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q10a" id="Q10aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">10b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Las personas me ven como
+alguien amable.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q10b" id="Q10bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q10b" id="Q10bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">10c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Estoy siempre en movimiento.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q10c" id="Q10cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q10c" id="Q10cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">10d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Persevero hasta que consigo
+lo que quiero.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q10d" id="Q10dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q10d" id="Q10dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">11a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Disfruto competir.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q11a" id="Q11aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q11a" id="Q11aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">11b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">No me tomo la vida muy
+seriamente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q11b" id="Q11bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q11b" id="Q11bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">11c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre considero a los
+demás.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q11c" id="Q11cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q11c" id="Q11cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">11d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona simpática.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q11d" id="Q11dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q11d" id="Q11dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">12a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy muy persuasivo.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q12a" id="Q12aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q12a" id="Q12aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">12b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me veo a mí mismo como una
+persona calmada.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q12b" id="Q12bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q12b" id="Q12bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">12c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tengo una actitud de
+modestia.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q12c" id="Q12cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q12c" id="Q12cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">12d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Usualmente se me ocurren
+ideas originales.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q12d" id="Q12dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q12d" id="Q12dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 13a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px; margin-top: 0pt;" align="left"> <font color="#336699" size="2">Me
+gusta mucho ayudar a otros.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q13a" id="Q13aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q13a" id="Q13aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 13b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px; margin-top: 0pt;" align="left"> <font color="#336699" size="2">No
+me gusta tentar al destino.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q13b" id="Q13bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q13b" id="Q13bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 13c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px; margin-top: 0pt;" align="left"> <font color="#336699" size="2">No
+me rindo fácilmente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q13c" id="Q13cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q13c" id="Q13cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 13d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px; margin-top: 0pt;" align="left"> <font color="#336699" size="2">Las
+personas disfrutan mi compañía.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q13d" id="Q13dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q13d" id="Q13dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial"><i> <font color="#808080" size="2">(Recuerde no existen respuestas "correctas" o
+"incorrectas"&nbsp; - <br>
+se le pide que elija las respuestas que MÁS LE GUSTAN y aquellas que
+MENOS LE GUSTAN)</font></i></font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 14a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tiendo a ser una persona
+precavida.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q14a" id="Q14aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q14a" id="Q14aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 14b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona muy decidida.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q14b" id="Q14bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q14b" id="Q14bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 14c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy bueno convenciendo a los
+demás.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q14c" id="Q14cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q14c" id="Q14cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 14d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Usualmente soy una persona
+amigable.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q14d" id="Q14dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q14d" id="Q14dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial"><font color="#336699" face="Arial" size="2"><br>
+</font></font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">15a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">No me asusto fácilmente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q15a" id="Q15aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q15a" id="Q15aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">15b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Las personas encuentran mi
+compañía estimulante.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q15b" id="Q15bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q15b" id="Q15bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">15c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre estoy dispuesto a
+seguir órdenes.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q15c" id="Q15cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q15c" id="Q15cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">15d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy más bien una persona
+tímida.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q15d" id="Q15dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q15d" id="Q15dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">16a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre estoy dispuesto a
+cambiar mis opiniones.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q16a" id="Q16aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q16a" id="Q16aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">16b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Disfruto de una buena
+discusión.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q16b" id="Q16bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q16b" id="Q16bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">16c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona fácil de
+llevar.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q16c" id="Q16cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q16c" id="Q16cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">16d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre miro el lado
+positivo de la vida.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q16d" id="Q16dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q16d" id="Q16dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">17a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona muy sociable.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q17a" id="Q17aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q17a" id="Q17aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">17b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tengo bastante paciencia.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q17b" id="Q17bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q17b" id="Q17bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">17c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy del tipo de personas
+auto-suficiente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q17c" id="Q17cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q17c" id="Q17cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">17d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Raramente alzo mi voz.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q17d" id="Q17dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q17d" id="Q17dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" size="2">18</font><font color="#336699" face="Arial" size="2">a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre estoy listo y
+dispuesto.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q18a" id="Q18aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q18a" id="Q18aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" size="2">18</font><font color="#336699" face="Arial" size="2">b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre estoy ansioso de
+probar cosas nuevas.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q18b" id="Q18bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q18b" id="Q18bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" size="2">18</font><font color="#336699" face="Arial" size="2">c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">No me gustan las discusiones.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q18c" id="Q18cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q18c" id="Q18cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" size="2">18</font><font color="#336699" face="Arial" size="2">d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Las personas me describen de
+espíritu alegre.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q18d" id="Q18dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q18d" id="Q18dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">19a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Disfruto asumiendo un riesgo.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q19a" id="Q19aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q19a" id="Q19aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">19b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy muy receptivo con las
+ideas de los demás.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q19b" id="Q19bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q19b" id="Q19bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">19c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre soy cortés y educado.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q19c" id="Q19cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q19c" id="Q19cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">19d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy más bien una persona
+moderada que extrema.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q19d" id="Q19dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q19d" id="Q19dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">20a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy un persona mas bien
+indulgente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q20a" id="Q20aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q20a" id="Q20aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">20b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona sensible.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q20b" id="Q20bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q20b" id="Q20bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">20c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tengo mucha energía y vigor.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q20c" id="Q20cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q20c" id="Q20cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">20d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me puedo mezclar en
+cualquier ambiente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q20d" id="Q20dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q20d" id="Q20dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> 
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+</font>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">21a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Disfruto conversando con las
+personas.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q21a" id="Q21aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q21a" id="Q21aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">21b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Controlo mis emociones.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q21b" id="Q21bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q21b" id="Q21bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">21c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy muy convencional en mi
+apariencia.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q21c" id="Q21cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q21c" id="Q21cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">21d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tomo decisiones rápidamente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q21d" id="Q21dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q21d" id="Q21dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">22a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tiendo a guardar mis
+emociones para mí mismo.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q22a" id="Q22aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q22a" id="Q22aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">22b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">La precisión es muy
+importante para mí.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q22b" id="Q22bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q22b" id="Q22bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">22c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me gusta decir lo que se me
+viene a la cabeza.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q22c" id="Q22cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q22c" id="Q22cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">22d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy muy amigable.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q22d" id="Q22dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q22d" id="Q22dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">23a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me gusta manejar las cosas
+con diplomacia.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q23a" id="Q23aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q23a" id="Q23aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">23b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona muy osada.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q23b" id="Q23bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q23b" id="Q23bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">23c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">A la mayoría de la personas
+les caigo bien.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q23c" id="Q23cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q23c" id="Q23cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2">23d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me siento satisfecho con la
+vida.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q23d" id="Q23dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q23d" id="Q23dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 24a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona obediente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q24a" id="Q24aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q24a" id="Q24aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 24b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre estoy dispuesto a
+intentarlo.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q24b" id="Q24bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q24b" id="Q24bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" height="32" width="8%"><font color="#336699" face="Arial" size="2"> 24c</font></td>
+<td align="left" height="32" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Lealtad es una de mis
+fortalezas.</font></p>
+</td>
+<td align="center" height="32" valign="top" width="12%"> <input value="1" name="Q24c" id="Q24cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" height="32" valign="top" width="12%"> <input value="-1" name="Q24c" id="Q24cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 24d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona atractiva
+para los demás.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q24d" id="Q24dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q24d" id="Q24dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> 
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+</font>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 25a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tiendo a ser del tipo de
+persona más bien agresiva.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q25a" id="Q25aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q25a" id="Q25aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 25b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me gusta divertirme y tengo
+mucha personalidad.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q25b" id="Q25bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q25b" id="Q25bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 25c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Las personas me ven como
+alguien fácil de conmover.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q25c" id="Q25cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q25c" id="Q25cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 25d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy más bien una persona
+tímida.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q25d" id="Q25dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q25d" id="Q25dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> 
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+</font>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 26a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy bueno motivando a los
+demás</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q26a" id="Q26aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q26a" id="Q26aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 26b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Paciencia es una de mis
+mayores fortalezas.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q26b" id="Q26bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q26b" id="Q26bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 26c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy cuidadoso en decir la
+frase correcta.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q26c" id="Q26cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q26c" id="Q26cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 26d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Tengo un fuerte deseo de
+ganar.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q26d" id="Q26dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q26d" id="Q26dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> 
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+</font>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%">&nbsp;</td>
+<td align="left" width="68%"> &nbsp;</td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Más</font></td>
+<td align="center" valign="top" width="12%"><font size="2" color="#336699">Menos</font></td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 27a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy una persona fácil de
+llevar.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q27a" id="Q27aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q27a" id="Q27aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 27b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me da bastante satisfacción
+ayudar a otros.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q27b" id="Q27bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q27b" id="Q27bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 27c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Siempre pienso las cosas muy
+bien.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q27c" id="Q27cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q27c" id="Q27cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 27d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Prefiero hacer las cosas
+ahora que después. </font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q27d" id="Q27dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q27d" id="Q27dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> 
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+<p style="line-height: 100%; margin: 0pt" align="center">&nbsp;</p>
+</font>
+<font face="Arial"> </font>
+<div align="center"><font face="Arial"> </font>
+<center><font face="Arial">
+<table border="1" width="60%">
+<tbody>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 28a</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Soy bueno analizando
+situaciones.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q28a" id="Q28aM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q28a" id="Q28aL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 28b</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Me vuelvo inquieto
+fácilmente.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q28b" id="Q28bM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q28b" id="Q28bL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 28c</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Pienso cómo mis decisiones
+pueden afectar a otros.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q28c" id="Q28cM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q28c" id="Q28cL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+<tr>
+<td align="center" width="8%"><font color="#336699" face="Arial" size="2"> 28d</font></td>
+<td align="left" width="68%">
+<p style="margin-left: 6px;"><font color="#336699" size="2">Las personas me ven como
+relajado y fácil de tratar.</font></p>
+</td>
+<td align="center" valign="top" width="12%">
+<input value="1" name="Q28d" id="Q28dM" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+<td align="center" valign="top" width="12%">
+<input value="-1" name="Q28d" id="Q28dL" onclick="uncheckOthers(id)" style="vertical-align: middle;" type="radio"> </td>
+</tr>
+</tbody>
+</table>
+</font></center>
+<font face="Arial"> </font></div>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<font face="Arial"> </font>
+<p style="margin: 0pt 30px 0pt 0pt; line-height: 100%;" align="right"><font face="Arial"><br>
+</font><a href="#top"><font face="Verdana" size="2"> Arriba</font></a><font face="Arial">
+</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial"><font color="#97023a" face="Arial" size="3"><span> <input value="Haga click aquí para enviar sus respuestas" name="Score" style="border-style: solid; border-width: 1px; color: rgb(51, 102, 153); font-family: Arial; font-size: 12pt; background-color: rgb(255, 255, 255); text-align: center;" onclick="return validate()" type="button"></span></font></font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> </font>
+<p style="margin: 0pt; line-height: 100%;" align="center"><font face="Arial">&nbsp;</font></p>
+<font face="Arial"> <b>
+<p class="MsoNormal" style="line-height: 100%; margin-top: 0px; margin-bottom: 0px;" align="center"><font color="#336699" face="Arial" size="1">©
+testsonthenet.com | SpectrumX Co Ltd&nbsp; |&nbsp; Innovanorte
+Soc. Ltda.+(055) 220963</font></p>
+</b></font>
+<blockquote>
+<hr><font face="Arial"> </font></blockquote>
+</form>
+</body></html>
